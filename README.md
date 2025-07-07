@@ -1,1 +1,1 @@
-# Modelo de Previsão de Demanda com Segmentação 
+# Modelo de Previsão de Demanda com Segmentação de Modelo por Loja
