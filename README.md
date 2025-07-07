@@ -84,9 +84,7 @@ O projeto é inspirado por desafios reais enfrentados pelo varejo: adaptar-se ra
 
 A segmentação dos modelos proporcionou ganhos concretos na acurácia da previsão de demanda, conforme demonstrado pelas métricas de erro (RMSE e MAE). O quadro abaixo ilustra a comparação entre o modelo vigente, único (global) e o modelo segmentado:
 
-<p align="center">
-  <img src="imagens/comparacao_metricas_segmentado_vs_unico.png" alt="Comparação de métricas de erro entre modelos" width="500">
-</p>
+<div align="center">
 
 | Modelo     | RMSE       | MAE       |
 |------------|------------|-----------|
@@ -94,18 +92,23 @@ A segmentação dos modelos proporcionou ganhos concretos na acurácia da previs
 | Único      | 1004.21    | 442.21    |
 | Segmentado | 916.83     | 417.79    |
 
+</div>
+
 > O modelo segmentado trouxe uma redução de aproximadamente **9% no RMSE e 6% no MAE** em relação ao modelo único, tornando as previsões mais ajustadas à realidade operacional de cada loja.
 
 ---
 
 No comparativo financeiro final, a soma dos custos de excesso e ruptura mostra o valor trazido pelo modelo segmentado:
 
+<div align="center">
 
 | Modelo           | Custo Total (R$)   |
 |------------------|-------------------|
 | Modelo Vigente   | 893.437.295,27     |
 | Modelo Único     | 73.085.864,41     |
 | Segmentado       | 72.220.197,77    |
+
+</div>
 
 > O modelo segmentado proporcionou uma economia superior a **91%** em relação ao modelo vigente, e pouco mais de **1%** frente ao modelo único, representando uma redução de custos de mais de milhões de reais em um ciclo de previsão.
 
