@@ -1,7 +1,7 @@
 # Modelo de Previsão de Demanda com Segmentação de Modelo por Loja (Varejo Supermercadista)
 
 <p align="center">
-  <img src="![image](https://github.com/user-attachments/assets/1208cded-6e1b-4264-9372-b496cdb725c8)" alt="Descrição opcional" width="500"/>
+  <img src="/Images/capa-previsao-demanda.png" width="500"/>
 </p>
 
 ## Descrição do Projeto
@@ -30,7 +30,7 @@ O projeto é inspirado por desafios reais enfrentados pelo varejo: adaptar-se ra
 ## Principais Técnicas e Algoritmos Utilizados
 
 <p align="center">
-  <img src="![https://github.com/user-attachments/assets/f35e4cf7-6ce9-49d9-b735-6ad1c7e0dae4](https://github.com/user-attachments/assets/f35e4cf7-6ce9-4d9d-b735-6ad1c7e0dae4)" alt="Descrição opcional" width="500"/>
+  <img src="/Images/crisp-dm.png" width="500"/>
 </p>
 
 - **Framework:** CRISP-DM para organização do ciclo do projeto.
