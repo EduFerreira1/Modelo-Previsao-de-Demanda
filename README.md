@@ -46,9 +46,9 @@ O projeto é inspirado por desafios reais enfrentados pelo varejo: adaptar-se ra
    - Identificação do público-alvo, critérios de sucesso e restrições do projeto.
 
 2. **Entendimento dos Dados**
-     [Acesse o código dessa etapa aqui](01%EDA/Exploratory%Data%Analysis%-%EDA.ipynb)
    - Levantamento e análise exploratória das fontes de dados.
    - Testes de sanidade das variáveis, análise de missing, outliers, granularidade e periodicidade.
+     [Acesse o código dessa etapa aqui](01%EDA/Exploratory%Data%Analysis%-%EDA.ipynb)
 
 3. **Preparação dos Dados**    
      [Acesse o código das etapas 3 e 4 aqui](02%Data%Preparation/Data%Preparation.ipynb)
