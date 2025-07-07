@@ -50,16 +50,16 @@ O projeto é inspirado por desafios reais enfrentados pelo varejo: adaptar-se ra
    - Levantamento e análise exploratória das fontes de dados.
    - Testes de sanidade das variáveis, análise de missing, outliers, granularidade e periodicidade.
 
-3. **Preparação dos Dados**    
+4. **Preparação dos Dados**    
    [Acesse o código das etapas 3 e 4 aqui](02%Data%Preparation/Data%Preparation.ipynb)
    - Ajuste de tipos de variáveis, joins entre bases, padronização e criação de variáveis derivadas.
    - Filtragem, tratamento de nulos e splits em bases de treino/teste.
 
-4. **Feature Engineering e Seleção de Variáveis**
+5. **Feature Engineering e Seleção de Variáveis**
    - Geração de novas features (lags, rolling, médias móveis, flags sazonais, etc).
    - Seleção de variáveis relevantes usando feature importance e testes estatísticos.
 
-5. **Modelagem**
+6. **Modelagem**
    [Acesse o código das etapas 5 e 6 aqui](03%Modeling/Modeling.ipynb)
    - Treinamento de diferentes algoritmos para previsão de demanda.
    - Tunagem de hiperparâmetros e comparação de performance.
