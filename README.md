@@ -46,10 +46,12 @@ O projeto é inspirado por desafios reais enfrentados pelo varejo: adaptar-se ra
    - Identificação do público-alvo, critérios de sucesso e restrições do projeto.
 
 2. **Entendimento dos Dados**
+   [Acesse o código dessa etapa aqui](01 EDA/Exploratory Data Analysis - EDA.ipynb)
    - Levantamento e análise exploratória das fontes de dados.
    - Testes de sanidade das variáveis, análise de missing, outliers, granularidade e periodicidade.
 
 3. **Preparação dos Dados**
+   [Acesse o código das etapas 3 e 4 aqui](02 Data Preparation/Data Preparation.ipynb)
    - Ajuste de tipos de variáveis, joins entre bases, padronização e criação de variáveis derivadas.
    - Filtragem, tratamento de nulos e splits em bases de treino/teste.
 
@@ -58,27 +60,27 @@ O projeto é inspirado por desafios reais enfrentados pelo varejo: adaptar-se ra
    - Seleção de variáveis relevantes usando feature importance e testes estatísticos.
 
 5. **Modelagem**
+   [Acesse o código das etapas 5 e 6 aqui](03 Modeling/Modeling.ipynb)
    - Treinamento de diferentes algoritmos para previsão de demanda.
    - Tunagem de hiperparâmetros e comparação de performance.
    - Modelagem segmentada por loja, cluster ou perfil, quando aplicável.
 
-6. **Avaliação dos Modelos**
+7. **Avaliação dos Modelos**
    - Avaliação das previsões por métricas técnicas (MAE, MSE, RMSE).
    - Análise do comportamento em diferentes lojas, produtos e períodos.
    - Escolha do modelo campeão com base em desempenho técnico e aderência ao negócio.
 
-7. **Segmentação de Modelos**
+8. **Segmentação de Modelos**
+   [Acesse o código dessa etapa aqui](04 Model Segmentation by Store/Segmentação_de_modelos.ipynb)
    - Aplicação de técnicas de segmentação (demográfica, geográfica, comportamental, valor do cliente).
    - Criação de modelos específicos para cada segmento ou uso de variáveis de segmentação em modelos globais.
    - Análise de custo-benefício entre modelos globais e segmentados.
 
-8. **Avaliação Financeira**
+9. **Avaliação Financeira**
+    [Acesse o código dessa etapa aqui](05 Financial Analysis/Avaliação_financeira.ipynb)
    - Estudo do impacto financeiro das previsões: redução de perdas, ruptura de estoque, aumento de receita e eficiência operacional.
    - Comparação entre modelo vigente e novos modelos propostos sob o ponto de vista financeiro.
 
-9. **Implantação e Escoragem**
-   - Pipeline para escoragem automática dos dados de entrada e geração das previsões.
-   - Salvamento dos artefatos dos modelos e automação do processo.
 
 ## Resultados
 
@@ -136,8 +138,9 @@ Por fim, a análise financeira foi fundamental para conectar o resultado do proj
 ## Contato
 
 Para dúvidas, sugestões ou colaboração, entre em contato:
-- [Seu LinkedIn]
-- [Seu e-mail]
+- [LinkedIn](https://www.linkedin.com/in/eduferreiraa)
+- Email: contatoedu.fsg@gmail.com
+
 ---
 
 > Este projeto segue as melhores práticas de ciência de dados aplicadas ao contexto real do varejo, sempre alinhando soluções técnicas com o impacto financeiro e estratégico para o negócio.
