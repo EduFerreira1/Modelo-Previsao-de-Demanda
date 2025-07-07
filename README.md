@@ -48,19 +48,18 @@ O projeto é inspirado por desafios reais enfrentados pelo varejo: adaptar-se ra
 2. **Entendimento dos Dados**
    - Levantamento e análise exploratória das fontes de dados.
    - Testes de sanidade das variáveis, análise de missing, outliers, granularidade e periodicidade.
-     [Acesse o código dessa etapa aqui](01%EDA/Exploratory%Data%Analysis%-%EDA.ipynb)
+   - [Acesse o código dessa etapa aqui](01%EDA/Exploratory%Data%Analysis%-%EDA.ipynb)
 
 3. **Preparação dos Dados**    
-     [Acesse o código das etapas 3 e 4 aqui](02%Data%Preparation/Data%Preparation.ipynb)
    - Ajuste de tipos de variáveis, joins entre bases, padronização e criação de variáveis derivadas.
    - Filtragem, tratamento de nulos e splits em bases de treino/teste.
 
 4. **Feature Engineering e Seleção de Variáveis**
    - Geração de novas features (lags, rolling, médias móveis, flags sazonais, etc).
    - Seleção de variáveis relevantes usando feature importance e testes estatísticos.
+   - [Acesse o código das etapas 3 e 4 aqui](02%Data%Preparation/Data%Preparation.ipynb)
 
 5. **Modelagem**
-     [Acesse o código das etapas 5 e 6 aqui](03%Modeling/Modeling.ipynb)
    - Treinamento de diferentes algoritmos para previsão de demanda.
    - Tunagem de hiperparâmetros e comparação de performance.
    - Modelagem segmentada por loja, cluster ou perfil, quando aplicável.
@@ -69,17 +68,18 @@ O projeto é inspirado por desafios reais enfrentados pelo varejo: adaptar-se ra
    - Avaliação das previsões por métricas técnicas (MAE, MSE, RMSE).
    - Análise do comportamento em diferentes lojas, produtos e períodos.
    - Escolha do modelo campeão com base em desempenho técnico e aderência ao negócio.
+   - [Acesse o código das etapas 5 e 6 aqui](03%Modeling/Modeling.ipynb)
 
 7. **Segmentação de Modelos**
-    [Acesse o código dessa etapa aqui](04%Model%Segmentation%by%Store/Segmentação_de_modelos.ipynb)
    - Aplicação de técnicas de segmentação (demográfica, geográfica, comportamental, valor do cliente).
    - Criação de modelos específicos para cada segmento ou uso de variáveis de segmentação em modelos globais.
    - Análise de custo-benefício entre modelos globais e segmentados.
+   - [Acesse o código dessa etapa aqui](04%Model%Segmentation%by%Store/Segmentação_de_modelos.ipynb)
 
 8. **Avaliação Financeira**
-   [Acesse o código dessa etapa aqui](05%Financial%Analysis/Avaliação_financeira.ipynb)
    - Estudo do impacto financeiro das previsões: redução de perdas, ruptura de estoque, aumento de receita e eficiência operacional.
    - Comparação entre modelo vigente e novos modelos propostos sob o ponto de vista financeiro.
+   - [Acesse o código dessa etapa aqui](05%Financial%Analysis/Avaliação_financeira.ipynb)
 
 
 ## Resultados
