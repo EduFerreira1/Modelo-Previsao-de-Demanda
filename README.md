@@ -77,7 +77,7 @@ O projeto é inspirado por desafios reais enfrentados pelo varejo: adaptar-se ra
    - Análise de custo-benefício entre modelos globais e segmentados.
 
 9. **Avaliação Financeira**
-    [Acesse o código dessa etapa aqui](05%Financial%Analysis/Avaliação_financeira.ipynb)
+   [Acesse o código dessa etapa aqui](05%Financial%Analysis/Avaliação_financeira.ipynb)
    - Estudo do impacto financeiro das previsões: redução de perdas, ruptura de estoque, aumento de receita e eficiência operacional.
    - Comparação entre modelo vigente e novos modelos propostos sob o ponto de vista financeiro.
 
